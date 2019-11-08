@@ -1,0 +1,24 @@
+.map-view .map-submit-btn{
+    position: fixed;
+    bottom: 14px;
+    right: 10px;
+    z-index: 2;
+}
+
+.map-view{
+    overflow: hidden;
+}
+
+.meeting-point{
+    width: 10px;
+    height: 10px;
+    background-color: var(--destructive);
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--destructive);
+}
+
+.active-mode{
+    -moz-box-shadow:    inset 0 0 10px #800080;
+   -webkit-box-shadow: inset 0 0 10px #800080;
+   box-shadow:         inset 0 0 10px #800080;
+}

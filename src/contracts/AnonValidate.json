@@ -1,0 +1,76 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "newSmlAddress",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "length",
+                "type": "uint256"
+            },
+            {
+                "components": [
+                    {
+                        "name": "negative",
+                        "type": "bool"
+                    },
+                    {
+                        "name": "indent",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "integer",
+                        "type": "int256"
+                    },
+                    {
+                        "name": "fraction",
+                        "type": "int256"
+                    }
+                ],
+                "indexed": false,
+                "name": "pred",
+                "type": "tuple[]"
+            },
+            {
+                "indexed": false,
+                "name": "maxIdx",
+                "type": "uint256"
+            }
+        ],
+        "name": "Message",
+        "type": "event"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "address"
+            },
+            {
+                "name": "fileName",
+                "type": "string"
+            }
+        ],
+        "name": "validate",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
