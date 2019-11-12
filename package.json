@@ -24,11 +24,10 @@
   },
   "homepage": "https://github.com/CodeSlip/AnonHero#readme",
   "dependencies": {
-    "ethereumjs-tx": "^2.1.1",
-    "truffle-hdwallet-provider": "^1.0.17",
     "@skalenetwork/filestorage.js": "0.2.8",
     "@toruslabs/torus-embed": "^0.2.3",
     "bootstrap": "^4.3.1",
+    "ethereumjs-tx": "^2.1.1",
     "immutable": "^4.0.0-rc.12",
     "node-gyp": "^6.0.0",
     "r-dom": "^2.4.0",
@@ -39,7 +38,9 @@
     "react-map-gl-heatmap-overlay": "^1.1.4",
     "react-scripts": "2.1.1",
     "reactstrap": "^8.0.1",
-    "web3": "1.0.0-beta.37"
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "1.0.0-beta.37",
+    "websocket": "^1.0.30"
   },
   "devDependencies": {
     "prettier": "^1.18.2",
