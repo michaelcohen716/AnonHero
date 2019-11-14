@@ -42,7 +42,7 @@
     "reactstrap": "^8.0.1"
   },
   "cacheDirectories": [
-    "node_modules",
+    "node_modules"
   ],
   "devDependencies": {
     "prettier": "^1.18.2",
