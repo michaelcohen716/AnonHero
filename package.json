@@ -38,8 +38,7 @@
     "react-map-gl": "^5.0.10",
     "react-map-gl-heatmap-overlay": "^1.1.4",
     "react-scripts": "2.1.1",
-    "reactstrap": "^8.0.1",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "reactstrap": "^8.0.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2",
